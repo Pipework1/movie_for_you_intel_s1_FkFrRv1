@@ -44,4 +44,4 @@ df = df[['title', 'cleaned_sentences']]
 print(df.head(10))
 df.info()
 
-df.to_csv()
+df.to_csv('./Data_For_Crl_01/cleaned_review.csv')
